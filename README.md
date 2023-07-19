@@ -1,25 +1,26 @@
 # AdventOfCode2015
 
-Welcome to the Advent of Code[^aoc] Kotlin project created by [pavi2410][github] using the [Advent of Code Kotlin Template][template] delivered by JetBrains.
+My solutions to the [Advent of Code 2015](https://adventofcode.com/2015) challenges.
 
-In this repository, pavi2410 is about to provide solutions for the puzzles using [Kotlin][kotlin] language.
+Current progress: Day 3 of 25
 
-If you're stuck with Kotlin-specific questions or anything related to this template, check out the following resources:
+### My Toolkit
 
-- [Kotlin docs][docs]
-- [Kotlin Slack][slack]
-- Template [issue tracker][issues]
+- Python 3
+- Pytest
 
+### File structure
 
-[^aoc]:
-    [Advent of Code][aoc] – An annual event of Christmas-oriented programming challenges started December 2015.
-    Every year since then, beginning on the first day of December, a programming puzzle is published every day for twenty-four days.
-    You can solve the puzzle and provide an answer using the language of your choice.
+```
+dayXX/
+    __init__.py
+    input.txt
+    main.py
+    test.py
+```
 
-[aoc]: https://adventofcode.com
-[docs]: https://kotlinlang.org/docs/home.html
-[github]: https://github.com/pavi2410
-[issues]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template/issues
-[kotlin]: https://kotlinlang.org
-[slack]: https://surveys.jetbrains.com/s3/kotlin-slack-sign-up
-[template]: https://github.com/kotlin-hands-on/advent-of-code-kotlin-template
+### Run tests
+
+```shell
+pytest dayXX/test.py
+```
